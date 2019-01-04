@@ -1,10 +1,11 @@
 {
   "name": "@jvega300/file_counter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "small counter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
   },
   "repository": {
     "type": "git",

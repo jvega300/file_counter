@@ -14,7 +14,6 @@ const dir = './';
  * @public
  */
 
-module.exports = Counter
 
 /**
  * Create a new Accepts object for the given req.
@@ -23,7 +22,7 @@ module.exports = Counter
  * @public
  */
 
-function Counter (req) {
+module.exports = function counterFile () {
 //   if (!(this instanceof Accepts)) {
 //     return new Accepts(req)
 //   }
@@ -32,8 +31,9 @@ function Counter (req) {
 //   this.negotiator = new Negotiator(req)
 
 
-    fs.readdir(dir, (err, files) => {
-        return files.length;
-    });
-
+    // fs.readdir(dir, (err, files) => {
+    //     return files.length;
+    // });
+    console.log("counterFile inicializando");
+    return "counterFile inicializando";
 }

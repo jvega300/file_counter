@@ -1,8 +1,8 @@
 
 'use strict'
 
-// var fs = require('fs')
-// const dir = '.';
+var fs = require('fs')
+const dir = '.';
 
 /**
  * Module exports.
@@ -29,10 +29,6 @@
 
 
 module.exports = function counterFile() {
-
-    var fs = require('fs')
-    const dir = '.';
-
 
     fs.readdir(dir, (err, files) => {
         console.log(files.length);

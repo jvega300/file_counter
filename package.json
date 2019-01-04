@@ -1,29 +1,23 @@
 {
-  "name": "@jvega300/file_counter",
-  "version": "0.1.5",
-  "description": "small counter",
+  "name": "file_counter_version",
+  "version": "0.0.1",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm start"
-  },
   "dependencies": {
     "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jvega300/file_counter.git"
-  },
-  "engines": {
-    "node": ">=4.2.4"
   },
   "author": "Jorge Vega <jvega300@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jvega300/file_counter/issues"
   },
-  "homepage": "https://github.com/jvega300/file_counter#readme",
-  "devDependencies": {
-    "fs": "0.0.1-security"
-  }
+  "homepage": "https://github.com/jvega300/file_counter#readme"
 }

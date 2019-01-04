@@ -30,10 +30,10 @@ module.exports = function counterFile () {
 //   this.headers = req.headers
 //   this.negotiator = new Negotiator(req)
 
-
-    // fs.readdir(dir, (err, files) => {
-    //     return files.length;
-    // });
     console.log("counterFile inicializando");
-    return "counterFile inicializando";
+
+    fs.readdir(dir, (err, files) => {
+        console.log(files.length);
+        return files.length;
+    });
 }

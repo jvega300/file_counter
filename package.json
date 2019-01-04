@@ -1,6 +1,6 @@
 {
   "name": "@jvega300/file_counter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "small counter",
   "main": "index.js",
   "scripts": {
